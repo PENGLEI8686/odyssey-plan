@@ -39,14 +39,33 @@
 
 ## 安装
 
-Clone this repository into your Codex user skills folder:
+推荐使用 npx 一键安装：
+
+```bash
+npx github:PENGLEI8686/odyssey-plan
+```
+
+安装完成后，重启 Codex，或在 Codex app 中使用 **Force Reload Skills**。
+
+如果已经安装过旧版本，可以覆盖安装：
+
+```bash
+npx github:PENGLEI8686/odyssey-plan -- --force
+```
+
+如果你不想使用 npx，也可以直接 clone 到 Codex skills 目录：
 
 ```bash
 mkdir -p ~/.agents/skills
 git clone https://github.com/PENGLEI8686/odyssey-plan.git ~/.agents/skills/odyssey-plan
 ```
 
-Then restart Codex, or use **Force Reload Skills** in the Codex app.
+之后更新：
+
+```bash
+cd ~/.agents/skills/odyssey-plan
+git pull
+```
 
 ## 使用
 

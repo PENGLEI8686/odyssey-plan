@@ -1,0 +1,35 @@
+{
+  "name": "odyssey-plan",
+  "version": "0.1.1",
+  "description": "斯坦福奥德赛计划 AI 引导师：通过5阶段深度对话推演三条平行人生路径。",
+  "license": "MIT",
+  "author": "PENGLEI8686",
+  "homepage": "https://github.com/PENGLEI8686/odyssey-plan#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PENGLEI8686/odyssey-plan.git"
+  },
+  "keywords": [
+    "codex",
+    "skill",
+    "agent-skill",
+    "odyssey-plan",
+    "life-design",
+    "designing-your-life"
+  ],
+  "bin": {
+    "odyssey-plan": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "references/",
+    "assets/",
+    "agents/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
