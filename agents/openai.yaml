@@ -1,0 +1,5 @@
+interface:
+  display_name: "奥德赛丨人生规划"
+  short_description: "通过5阶段深度对话推演三条平行人生路径。"
+  brand_color: "#5B6EE1"
+  default_prompt: "帮我做一次人生推演"

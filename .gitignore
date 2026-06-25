@@ -1,0 +1,6 @@
+.DS_Store
+__MACOSX/
+*.zip
+*.tgz
+node_modules/
+npm-debug.log*
